@@ -6,7 +6,9 @@ namespace RegexPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to RegexPattern Demo");
+           RegexPattern pattern = new RegexPattern();
+            Console.WriteLine(pattern.ValidatePattern("Charan"));
+            Console.ReadKey();
         }
     }
 }
