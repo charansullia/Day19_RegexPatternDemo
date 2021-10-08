@@ -7,7 +7,7 @@ namespace RegexPattern
         static void Main(string[] args)
         {
            RegexPattern pattern = new RegexPattern();
-            Console.WriteLine(pattern.ValidatePattern("Raj"));
+            Console.WriteLine(pattern.ValidatePattern("abc.xyz@bl.co.in"));
             Console.ReadKey();
         }
     }
