@@ -7,7 +7,7 @@ namespace RegexPattern
 {
     class RegexPattern
     {
-        public static string Regex_Pattern = "^[1-9]{2}[ ][0-9]{10}$";
+        public static string Regex_Pattern = "^[A-Za-z0-9]+([0-9A-Za-z@#$%])*$";
 
         public bool ValidatePattern(string Pattern)
         {

@@ -7,7 +7,7 @@ namespace RegexPattern
         static void Main(string[] args)
         {
            RegexPattern pattern = new RegexPattern();
-            Console.WriteLine(pattern.ValidatePattern("91 9876543200"));
+            Console.WriteLine(pattern.ValidatePattern("Charan#1234"));
             Console.ReadKey();
         }
     }
